@@ -42,7 +42,7 @@ LLMs read instructions and data in the same channel, so there is no enforced bou
 
 ```text
 /plugin marketplace add iamhelitha/llm-prompt-injection-audit
-/plugin install llm-prompt-injection-audit@llm-prompt-injection-audit
+/plugin install llm-prompt-injection-audit@iamhelitha
 ```
 
 **Claude Code (manual copy)**
