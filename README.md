@@ -38,7 +38,14 @@ LLMs read instructions and data in the same channel, so there is no enforced bou
 
 ## Install
 
-**Claude Code**
+**Claude Code (plugin marketplace, recommended)**
+
+```text
+/plugin marketplace add iamhelitha/llm-prompt-injection-audit
+/plugin install llm-prompt-injection-audit@llm-prompt-injection-audit
+```
+
+**Claude Code (manual copy)**
 
 ```bash
 git clone https://github.com/iamhelitha/llm-prompt-injection-audit.git
@@ -87,6 +94,7 @@ You don't need to say "prompt injection". The skill triggers whenever you ask fo
 
 ```text
 .
+├── .claude-plugin/                          # marketplace + plugin manifests
 ├── assets/cover.svg                         # README cover image
 ├── skills/
 │   └── llm-prompt-injection-audit/
